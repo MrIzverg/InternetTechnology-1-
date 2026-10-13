@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С пылу, с жару! - онлайн-пекарня</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <!-- Логотип-ссылка на главную. Внутри — SVG + текст. -->
+        <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип кондитерской «Сладкая мастерская»">
+            <span>С пылу, с жару!</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Основная навигация">
+            <ul>
+                <li><a href="index.html" aria-current="page">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="item.html">Торт «Красный бархат»</a></li>
+                <li><a href="order.html">Оформление заказа</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Торты на заказ по вашему рецепту</h1>
+            <p>Выберите начинку, размер и надпись — мы испечём и привезём к нужной дате.</p>
+            <a class="btn" href="order.html">Оформить заказ</a>
+        </section>
+        <section class="featured">
+            <h2>Хиты недели</h2>
+            <!-- .card-grid — Grid-сетка. Карточки сами перестраиваются
+                 в колонки в зависимости от ширины экрана. -->
+            <div class="card-grid">
+
+                <article class="card">
+                    <img src="img/cake-1.jpg" alt="Торт «Красный бархат» с кремом-чиз">
+                    <h3>Красный бархат</h3>
+                    <p>от 2 400 ₽/кг</p>
+                    <a href="item.html">Подробнее</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/cake-2.jpg" alt="Медовик с грецким орехом">
+                    <h3>Медовик</h3>
+                    <p>от 1 900 ₽/кг</p>
+                    <a href="catalog.html">В каталог</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/cake-3.jpg" alt="Шоколадный торт с ягодной начинкой">
+                    <h3>Шоколад-ягода</h3>
+                    <p>от 2 200 ₽/кг</p>
+                    <a href="catalog.html">В каталог</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/cake-4.jpg" alt="Торт с мастикой и фигурками">
+                    <h3>Фигурный</h3>
+                    <p>от 3 500 ₽/кг</p>
+                    <a href="catalog.html">В каталог</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/cake-5.jpg" alt="Набор пирожных ассорти">
+                    <h3>Набор пирожных</h3>
+                    <p>от 1 200 ₽</p>
+                    <a href="catalog.html">В каталог</a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Кондитерская «С пылу, с жару!». Санкт-Петербург, ул. Пряничная, 12.</p>
+        <p>Телефон: <a href="tel:+78120000000">+7 (812) 000-00-00</a></p>
+    </footer>
+</body>
+</html>

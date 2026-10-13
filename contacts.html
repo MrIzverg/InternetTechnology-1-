@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — С пылу, с жару!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип кондитерской">
+            <span>С пылу, с жару!</span>
+        </a>
+        <nav class="main-nav" aria-label="Основная навигация">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="item.html">Торт «Красный бархат»</a></li>
+                <li><a href="order.html">Оформление заказа</a></li>
+                <li><a href="contacts.html" aria-current="page">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Контакты</h1>
+
+        <section class="contact-info">
+            <h2>Наш адрес</h2>
+            <p>Санкт-Петербург, ул. Пряничная, 12</p>
+
+            <h2>Телефон</h2>
+            <p><a href="tel:+78120000000">+7 (812) 000-00-00</a></p>
+
+            <h2>Режим работы</h2>
+            <p>Пн–Вс: 09:00 — 21:00</p>
+
+            <h2>Слоган</h2>
+            <p>«Ваш вкус — наша рецептура».</p>
+        </section>
+
+        <section>
+            <h2>Форма обратной связи</h2>
+            <p>Форма заработает в ПР 2.</p>
+
+            <form class="feedback-form" action="#" method="post">
+
+                <div class="field">
+                    <label for="fb-name">Имя</label>
+                    <input id="fb-name" name="name" type="text" required>
+                </div>
+
+                <div class="field">
+                    <label for="fb-email">Email</label>
+                    <input id="fb-email" name="email" type="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="fb-message">Сообщение</label>
+                    <textarea id="fb-message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button class="btn" type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Кондитерская «С пылу, с жару!».</p>
+    </footer>
+</body>
+</html>

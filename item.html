@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Торт «Красный бархат» — С пылу, с жару!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип кондитерской">
+            <span>С пылу, с жару!</span>
+        </a>
+        <nav class="main-nav" aria-label="Основная навигация">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="item.html" aria-current="page">Торт «Красный бархат»</a></li>
+                <li><a href="order.html">Оформление заказа</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="item-page">
+        <h1>Торт «Красный бархат»</h1>
+        <div class="item-layout">
+            <img class="item-photo" src="img/cake-1.jpg" alt="Торт «Красный бархат» с кремом-чиз и ягодами">
+            <section class="item-info">
+                <h2>Описание</h2>
+                <p>Классический бисквит с какао, натуральный краситель,
+                   крем-чиз на сливочном сыре. Украшается ягодами и шоколадной крошкой.</p>
+
+                <h2>Характеристики</h2>
+                <!-- dl (definition list) — семантически правильный тег
+                     для пар «параметр — значение».
+                     dt = термин, dd = определение. -->
+                <dl class="specs">
+                    <dt>Вес</dt>            <dd>от 1 до 6 кг</dd>
+                    <dt>Начинка</dt>        <dd>крем-чиз, вишня, малина</dd>
+                    <dt>Срок изготовления</dt><dd>от 48 часов</dd>
+                    <dt>Декор</dt>          <dd>ягоды, шоколад, надпись</dd>
+                    <dt>Цена</dt>           <dd>от 2 400 ₽ за кг</dd>
+                </dl>
+                <a class="btn" href="order.html">Заказать этот торт</a>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Кондитерская «C пылу, с жару!».</p>
+    </footer>
+</body>
+</html>
